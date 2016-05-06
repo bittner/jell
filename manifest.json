@@ -1,0 +1,15 @@
+{
+    "name": "jell.peter-bittner",
+    "description": "Daily standups for remote teams that work.",
+    "architecture": "all",
+    "title": "Jell (Unofficial)",
+    "hooks": {
+        "jell": {
+            "apparmor": "jell.apparmor",
+            "desktop": "jell.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Peter Bittner <django@bittner.it>",
+    "framework": "ubuntu-sdk-15.04"
+}

@@ -1,0 +1,59 @@
+Jell (Unofficial)
+-----------------
+
+Jell makes daily standups work for remote teams. Keep your team up to
+date, share plans and progress every day — without another meeting.
+
+Jell is a free service for teams. It's available from https://jell.com
+and integrates nicely with Slack (a team chat you either use already, or
+you should consider using — it's free too).
+
+This web app is not affiliated with Jell. The Jell name, associated
+trade marks and the Jell logo are trade marks of Jell or related
+entities.
+
+License
+-------
+
+Jell (Unofficial) Web App for Ubuntu Touch devices
+Copyright (C) 2016  Peter Bittner <django@bittner.it>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Support
+-------
+
+Source code:
+- https://github.com/bittner/jell
+
+Issue tracker:
+- https://github.com/bittner/jell/issues
+
+Development
+-----------
+
+Ubuntu developer information on Webapps
+- https://developer.ubuntu.com/en/web/
+
+Introductory guide on Ubuntu Webapps
+- https://developer.ubuntu.com/en/web/ubuntu-webapps-guide/
+
+Ubuntu Webapps tutorials
+- https://developer.ubuntu.com/en/web/tutorials/
+
+Build and publish the .click package manually, without Ubuntu SDK:
+- Install `click` on your developer machine (`sudo apt-get install click`)
+- Make sure you have bumped the version number in `manifest.json`
+- `cd` into the project repo folder and build the package (`click build .`)
+- Upload the created .click file at https://myapps.developer.ubuntu.com

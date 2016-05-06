@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Jell (Unofficial)
+Comment=Daily standups for remote teams that work. Web app for Ubuntu Touch devices.
+Type=Application
+Icon=jell.png
+Exec=webapp-container --store-session-cookies --webappUrlPatterns=https://jell.com/*,https://github.com/* https://jell.com/app
+Terminal=false
+X-Ubuntu-Touch=true
